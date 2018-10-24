@@ -19,7 +19,7 @@ var drawPlayer = function () {
 	if (player.weapon) {
 		Stick(player.x + 10, playerY + 30, 50);
 		resetMatrix();
-		scale(windowHeight/400);
+		scale(2);
 	}
 	noStroke();
 	fill(player.colorBody);
