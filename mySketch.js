@@ -1,4 +1,11 @@
+function preload() {
+  soundFormats('mp3', 'ogg');
+  mySound = loadSound('Rookitmin/platformer/WhenItRains.mp3');
+}
+
 function setup() {
+	mySound.setVolume(0.1);
+	mySound.play();
 	createCanvas(800, 800);
 	background("blue");
 }
