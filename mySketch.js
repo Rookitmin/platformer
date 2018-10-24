@@ -1,5 +1,5 @@
 function setup() {
-	createCanvas(windowHeight, windowHeight);
+	createCanvas(800, 800);
 	background("blue");
 }
 
@@ -11,7 +11,7 @@ var left = true;
 var right = true;
 function draw() {
 	resetMatrix();
-	scale(windowHeight/400);
+	scale(2);
 	if (!playerDead) {
 		background("blue");
 		ground(300);
